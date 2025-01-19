@@ -1,5 +1,4 @@
 import './home.css'
-import search_logo from '../assets/search.png'
 import Header from "../component/header/header"
 import Budget from "../component/selectors/budgetSelector/Budget"
 import Location from '../component/selectors/otherSelector/Location'

@@ -1,5 +1,4 @@
 import '../home.css'
-import search_logo from '../../assets/search.png'
 import Header from "../../component/header/header"
 import Budget from "../../component/selectors/budgetSelector/Budget"
 import Location from '../../component/selectors/otherSelector/Location'
@@ -24,7 +23,7 @@ const AdminHome = ({setEdit})=>{
                     </div>
                     <div className='search_div'>
                         <input type='text' name='search' value={search} onChange={(e)=>setSearch(e.target.value)} id='search_input'/>
-                        <img src={search_logo} alt='search' className='search_btn_mobile' />
+                        <img src='' alt='search' className='search_btn_mobile' />
                     </div>
                     <div className='filter_price'>
                         <h3>Filter by price</h3>
