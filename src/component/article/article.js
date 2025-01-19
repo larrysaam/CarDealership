@@ -1,5 +1,4 @@
 import {useState, useEffect} from 'react';
-import logo from '../../assets/whatsapp.png'
 import ImageSlider from './imageSlider';
 import { useLocation } from 'react-router-dom';
 
@@ -28,7 +27,7 @@ const Article = ()=>{
                 </ul>
                 </div>
                 
-                <button className='whatsapp_btn_1' onClick={()=>{window.location.href = 'https://wa.link/70d550'}}><img src={logo} alt='.' id='whatsapp_icon'/> Whatsapp</button>
+                <button className='whatsapp_btn_1' onClick={()=>{window.location.href = 'https://wa.link/70d550'}}><img src='' alt='.' id='whatsapp_icon'/> Whatsapp</button>
             </div>
         </div>
     )
