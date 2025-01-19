@@ -31,7 +31,7 @@ const AdminHome = ({setEdit})=>{
                     <div className='top_mobile-bar'>
                         <div className='search_div_2'>
                             <input type='text' name='search' value={search} onChange={(e)=>setSearch(e.target.value)} id='search_input'/>
-                            <img src={search_logo} alt='search' className='search_btn_mobile' />
+                            <img src='' alt='search' className='search_btn_mobile' />
                             {/* <button className='search_btn'>O</button> */}
                         </div>
                         <div className='top_options'>

@@ -1,5 +1,4 @@
 import './posts.css'
-import seeicon from '../../assets/view.png'
 import { useNavigate } from 'react-router-dom'
 
 const Post = ({data, made, model, images, price, age})=>{
@@ -26,7 +25,7 @@ const Post = ({data, made, model, images, price, age})=>{
                 </div>
                 <div className='btn_div'>
                     <button className='whatsapp_btn'  onClick={()=>{window.location.href = 'https://wa.link/70d550'}}><img src='' alt='.' id='whatsapp_icon'/>  Whatsapp </button>
-                    <button className='see_btn' onClick={()=>navigate('/article', {state: {data}})}><img src={seeicon} alt='.' className='see_more_img'/> See More </button>
+                    <button className='see_btn' onClick={()=>navigate('/article', {state: {data}})}><img src='' alt='.' className='see_more_img'/> See More </button>
                 </div>
             </div>
         </div>
