@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import profile from '../../assets/tes2.jpeg'
 import './cards.css'
 import { FaStar } from "react-icons/fa";
 
@@ -79,7 +78,7 @@ export const TestimonialCards =({text})=>{
                 </div>
             </div>
             <div className='tes_bottom_per_id'>
-                <img src={profile} alt='' className='tes_per_img'/>
+                <img src='https://res.cloudinary.com/dhhtxax50/image/upload/v1737323501/CarDealership/profile_qkgl3e.jpg' alt='' className='tes_per_img'/>
                 <div className='tes_per_details'>
                     <h4>Larrien</h4>
                     <p></p>

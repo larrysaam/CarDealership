@@ -1,4 +1,3 @@
-import hero from '../../assets/maincar.png'
 import { TbLaurelWreath1 } from "react-icons/tb";
 import './index.css'
 export const Hero = ()=>{
@@ -12,7 +11,7 @@ export const Hero = ()=>{
             <p className='text_p'>Carsforall has a variety of imported cars at best prices.</p>
 
             <div className="hero_image_container">
-                <img src={hero} alt="hero" className="hero_img heroimg"/>
+                <img src='https://res.cloudinary.com/dhhtxax50/image/upload/v1737323583/CarDealership/maincar_qzhp9i.png' alt="hero" className="hero_img heroimg"/>
             </div>
 
             <div className='hero_btns'>

@@ -1,7 +1,4 @@
 import './index.css'
-import about1 from '../../assets/about1.jpeg'
-import about2 from '../../assets/about2.jpeg'
-import about3 from '../../assets/about3.jpeg'
 
 
 export const About=()=>{
@@ -11,11 +8,11 @@ export const About=()=>{
             <div className='inner_about'>
                 <div className='about_img_div'>
                     <div className='img_1_about'>
-                        <img src={about2} alt='' className='about_img'/>
+                        <img src='https://res.cloudinary.com/dhhtxax50/image/upload/v1737323513/CarDealership/about2_rhqdo1.jpg' alt='' className='about_img'/>
                     </div>
                     <div className='img_2_about'>
-                        <img src={about1} alt='' className='about_img'/>
-                        <img src={about3} alt='' className='about_img'/>
+                        <img src='https://res.cloudinary.com/dhhtxax50/image/upload/v1737323472/CarDealership/about1_tbuklo.jpg' alt='' className='about_img'/>
+                        <img src='https://res.cloudinary.com/dhhtxax50/image/upload/v1737323514/CarDealership/about3_ddrh7f.jpg' alt='' className='about_img'/>
                     </div>
                 </div>
                 <div className='about_text'>
