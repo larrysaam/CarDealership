@@ -1,0 +1,72 @@
+.features{
+    width: 90%;
+    display: inline-block;
+}
+
+.features_1{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+.feature_logo{
+    width: 15px;
+    height: 15px;
+    color: feature_logo;
+}
+
+.name_section{
+    width: 90%;
+    height: 60px;
+}
+
+
+/* pricing section */
+
+.price_listing{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid rgb(220, 220, 220);
+}
+
+.contact_btn{
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #7006cc9f;
+}
+
+.contact_btn:hover{
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #7006cc;
+    border: 1px solid #7006cc;
+    color: white;
+}
+
+.whatsapp_icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-right: 5px;
+}

@@ -1,0 +1,53 @@
+.logobanner_div{
+    width: 100%;
+    height: 130px;
+    padding: 20px 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(227, 227, 227);
+}
+
+.car_logo{
+    transition: 0.4s;
+    height: 80px;
+    width: 80px;
+    color: rgb(102, 102, 102);
+}
+
+.smallLogo{
+    height: 100px;
+    width: 100px;
+    transition: 0.4s;
+    color: rgb(102, 102, 102);
+}
+
+.smallLogo:hover{
+    height: 100px;
+    width: 100px;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+}
+
+.car_logo:hover{
+    transition: 0.4s;
+    height: 80px;
+    width: 80px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    .logobanner_div{
+        overflow-x: scroll;
+    }
+
+}
+
+

@@ -1,0 +1,163 @@
+.testimonial_card{
+    width: 300px;
+    height: 220px;
+    border-radius: 15px;
+    background-color: rgb(232, 232, 232);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sub_tes_div{
+    width: 98%;
+    margin: auto;
+    margin-top: 4px;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 15px;
+
+    display: inline-block;
+    justify-content: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.glow {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #7700e060, transparent);
+    border-radius: 50%;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translate(-50%, -50%);
+    filter: blur(10px);
+}
+
+
+.tes_stars_div{
+    display: flex;
+    justify-content: left;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+
+
+#tes_comment{
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.tes_bottom_per_id{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 60px;
+    padding: 0 10px ;
+}
+
+
+.tes_per_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #7700e0;
+    object-fit: cover;
+}
+
+
+.star_icon{
+    height: 14px;
+    width: 14px;
+    color: gold;
+}
+
+
+/* read more btn */
+.test_text_container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow-y: scroll;
+}
+
+
+.read-more-button {
+    background: none;
+    border: none;
+    color: #7700e0; /* Or your preferred color */
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px; /* Adjust spacing as needed */
+    text-decoration: underline;
+}
+
+
+.read-more-button:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* ******  Video testimonial card  **** */
+.vid_test_card{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+
+    background-color: rgb(235, 235, 235);
+}
+
+.vid_div{
+    width: 200px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#video_tes{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.vid_sub_tes_div{
+    width: 280px;
+    height: 100%;
+    margin: auto;
+    margin-top: 4px;
+    flex-grow: 1;
+    border-radius: 15px;
+
+    display: inline-block;
+    justify-content: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    .testimonial_card{
+        min-width: 300px;
+    }
+}
