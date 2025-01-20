@@ -47,3 +47,21 @@
     border-top-left-radius: 10px;
 
 }
+
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    
+    .listing_div{
+        transition: 0.4s;
+
+        min-width: 260px;
+        height: 430px;
+    }
+
+    .listing_details{
+        
+    }
+}

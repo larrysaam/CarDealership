@@ -70,3 +70,16 @@
     color: white;
     margin-right: 5px;
 }
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    .features{
+        float: left;
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+}

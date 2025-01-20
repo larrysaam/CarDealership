@@ -90,13 +90,13 @@
     }
 
     .testimonial_div h1{
-        width: 90%;
-        font-size: 50px;
+        width: 95%;
+        font-size: 45px;
         font-weight: 600;
     }
 
     .testimonial_div p{
-        font-size: 20px;
+        font-size: 18px;
         width: 90%;
     }
 
@@ -118,12 +118,12 @@
 
     .vid_testimonial_div h1{
         width: 100%;
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .vid_testimonial_div p{
         width: 90%;
-        font-size: 20px;
+        font-size: 18px;
     }
     
 

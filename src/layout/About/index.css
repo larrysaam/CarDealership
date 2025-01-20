@@ -164,6 +164,10 @@
         object-fit: cover;
     }
 
+    .about_img:hover{
+        transform: translate(-50%, -50%);
+    }
+
     .about_text{
         width: 98%;
     }
@@ -177,20 +181,28 @@
 
     .goals_list{
         width: 100%;
+        
     }
 
     /* our goals */
     .goals_list ul{
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .goals_list ul li{
         display: flex;
         flex-direction: column;
-        gap: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -35px;
+
     }
 
     .goals_list ul li p{
         margin-bottom: 30px;
+        
     }
 }
