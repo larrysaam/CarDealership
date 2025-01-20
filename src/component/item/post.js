@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Post = ({data, made, model, images, price, age})=>{
 
+    
     const navigate = useNavigate()
 
     return(
