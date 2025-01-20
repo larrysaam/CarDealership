@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CarDealership/static/css/main.8761054a.css",
-    "main.js": "/CarDealership/static/js/main.dc8426fd.js",
+    "main.js": "/CarDealership/static/js/main.c976d339.js",
     "static/media/logo2.png": "/CarDealership/static/media/logo2.7b99f300aef279343117.png",
     "index.html": "/CarDealership/index.html",
     "main.8761054a.css.map": "/CarDealership/static/css/main.8761054a.css.map",
-    "main.dc8426fd.js.map": "/CarDealership/static/js/main.dc8426fd.js.map"
+    "main.c976d339.js.map": "/CarDealership/static/js/main.c976d339.js.map"
   },
   "entrypoints": [
     "static/css/main.8761054a.css",
-    "static/js/main.dc8426fd.js"
+    "static/js/main.c976d339.js"
   ]
 }
