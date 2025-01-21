@@ -4,3 +4,17 @@
     height: 100%;
     display: flex;
 }
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    .detials_main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}

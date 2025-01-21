@@ -70,3 +70,15 @@
     box-sizing: border-box;
     border: 2px solid #7006ccde;
 }
+
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    .image_slider{
+        min-width: 100%;
+        height: 500px;
+    }
+
+}

@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-        {/* <Header /> */}
+        <Header />
       <Routes>
         <Route path='/CarDealership' element={<HomePage/>}/>
-        <Route path='/Home' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/edit' element={<Edit edit={edit} setEdit={setEdit}/>}/>
         <Route path='/details' element={<Details/>}/>
         <Route path='/Adminforall2024' element={<AdminHome setEdit={setEdit}/>}/>

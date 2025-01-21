@@ -58,3 +58,29 @@
     background-color: white;
     border: 2px solid #7006ccde;
 }
+
+
+
+
+
+/* ********  MOBILE DEVICE  ********* */
+@media only screen and (max-width: 600px){
+    .side_details{
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 20px;
+    }
+
+    .location_details{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+    }
+
+    .details, .price_details{
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+}

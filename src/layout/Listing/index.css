@@ -57,11 +57,15 @@
     .listing_div{
         transition: 0.4s;
 
-        min-width: 260px;
-        height: 430px;
+        min-width: 165px;
+        max-width: 165px;
+        height: 370px;
     }
 
+    .image_listing{
+        height: 40%;
+    }
     .listing_details{
-        
+        height: 50%;
     }
 }

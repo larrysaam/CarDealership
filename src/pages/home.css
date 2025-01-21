@@ -1,6 +1,7 @@
 .body_container{
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .item_div_main{
@@ -112,84 +113,44 @@
     display: none;
 }
 
+.mobile_price_selector{
+    display: none;
+}
 
 
 
 @media screen and (max-width: 600px){
-
-
-    .sidebar{
-        max-width: 0px;
-        max-height: 0px;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-        justify-content: center;
-        text-align: center;
-        background-color: red;
-    }
-    
-
-    .top_options{
-        visibility: visible;
-        display: flex;
-        justify-content: space-evenly;
+    .body_container{
+        margin-bottom: 80px;
+        margin-top: 35px;
     }
 
-    .filter_price{
-        display: none;
-    }
-
-    .top_mobile-bar{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        display: inline-block;
-        justify-content: center;
-        text-align: center;
-        background-color: rgb(247, 247, 247);
-        border-bottom: 1px solid rgb(105, 105, 105);
-    }
-
-    .search_div_2{
-        visibility: visible;
-        width: 100%;
-        display: flex;
-    }
-
-    #search_input{
-        min-width: 300px;
-        display: block;
-        border-radius: 20px;
-        font-size: 17px;
-    }
-
-    .search_btn_mobile{
-        width: 30px;
-        height: 30px;
-        border: none;
-        color: white;
-        margin-left: 20px;
-        margin-top: 5px;
+    .listing_main{
+        padding: 5px;
+        box-sizing: border-box;
+        background: none;
     }
 
     .item_div_main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        row-gap: 30px;
+        background: none;
+    }
+    
+
+    .mobile_price_selector{
         width: 100%;
+        height: 80px;
+        background-color: white;
+        border-top: 1px solid #7006cc;
         display: flex;
         justify-content: center;
-        text-align: center;
         align-items: center;
-    }
-
-    .body_container{
-        width: 100%;
-        display: inline-block;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
     }
 }

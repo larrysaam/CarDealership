@@ -54,7 +54,7 @@
 
     .listing_inner_div{
         width: 95%;
-        height: 500px;
+        height: 400px;
         display: flex;
         overflow-x: scroll; 
         gap: 30px;  

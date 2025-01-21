@@ -82,4 +82,23 @@
         flex-direction: column;
         justify-content: left;
     }
+
+    .name_section{
+        width: 90%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        line-height: 16px;
+    }
+
+    .price_listing h3{
+        font-size: 14px;
+    }
+
+    .price_listing .contact_btn{
+        width: 70px;
+        font-size: 10px;
+    }
 }

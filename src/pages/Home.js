@@ -8,6 +8,7 @@ import { useEffect, useState } from 'react'
 import { Sidebar } from '../layout/sidebar/sidebar'
 import { Listing } from '../layout/Listing/listing'
 import useFetchVehicle from '../hook/useFetchVehicles'
+import { PricingFilter } from '../component/filters'
 
 
 
@@ -62,6 +63,11 @@ const Home = ()=>{
                     {/* <Item price={price} model={model} location={location} search={search}/> */}
                 </div>
                 </div>
+            </div>
+
+            {/* bottom price range selector only for mobile version */}
+            <div className='mobile_price_selector'>
+                <PricingFilter setPrice={setPrice} price={price}/>
             </div>
         </div>
     )

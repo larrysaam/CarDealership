@@ -1,6 +1,9 @@
 import { TbLaurelWreath1 } from "react-icons/tb";
 import './index.css'
+import { useNavigate } from "react-router-dom";
 export const Hero = ()=>{
+
+    const nav = useNavigate()
 
     return(
         <div className="hero_section">
@@ -16,7 +19,7 @@ export const Hero = ()=>{
 
             <div className='hero_btns'>
                 <button className='contact_hero_btn herobtn'>Contact Us</button>
-                <button className='store_btn herobtn'>View Shop</button>
+                <button className='store_btn herobtn' onClick={()=>nav('/home')}>View Shop</button>
             </div>
         </div>
     )

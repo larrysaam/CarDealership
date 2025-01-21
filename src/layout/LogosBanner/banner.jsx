@@ -9,7 +9,15 @@ import { SiMazda } from "react-icons/si";
 export const LogosBanner =()=>{
 
     return(
-        <div>
+        <div className='banner'>
+            <div className='logobanner_div'>
+                <SiToyota className=" smallLogo"/>
+                <SiMercedes className="car_logo"/>
+                <TbCircleLetterBFilled className=" smallLogo"/>
+                <SiRollsroyce className="car_logo"/>
+                <SiMitsubishi className="car_logo"/>
+                <SiMazda className="car_logo"/>
+            </div>
             <div className='logobanner_div'>
                 <SiToyota className=" smallLogo"/>
                 <SiMercedes className="car_logo"/>
