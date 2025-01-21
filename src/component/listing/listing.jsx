@@ -36,10 +36,15 @@ export const ListingName = ({cartype, name})=>{
 //price section of listing box
 export const ListingPrice = ({price})=>{
 
+    const handleclick = () => {
+        const whatsappLink = 'https://we.me/+237670019205?text=CarsForAll';
+        window.location.href = whatsappLink;
+    };
+
     return(
         <div className="price_listing">
             <h3>{price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} F</h3>
-            <button className="contact_btn"><FaWhatsapp className="whatsapp_icon"/>Contact</button>
+            <button className="contact_btn" onClick={()=>handleclick()}><FaWhatsapp className="whatsapp_icon"/>Contact</button>
         </div>
     )
 }

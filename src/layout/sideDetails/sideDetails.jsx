@@ -11,6 +11,11 @@ import './sideDetails.css'
 
 export const SideDetails = ({capacity, speed, air, camera, fuel, gear, location, price}) =>{
 
+    const handleclick = () => {
+        const whatsappLink = 'https://we.me/+237670019205?text=CarsForAll';
+        window.location.href = whatsappLink;
+    };
+
     return(
         <div className="side_details">
             <div className="details">
@@ -28,7 +33,7 @@ export const SideDetails = ({capacity, speed, air, camera, fuel, gear, location,
             </div>
             <div className="price_details">
                 <h3>{price} FCFA</h3>
-                <button className="contactnow_btn contactnow">Contact Now</button>
+                <button className="contactnow_btn contactnow" onClick={()=>handleclick()}>Contact Now</button>
             </div>
         </div>
     )

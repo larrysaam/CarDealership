@@ -5,6 +5,11 @@ export const Hero = ()=>{
 
     const nav = useNavigate()
 
+    const handleclick = () => {
+        const whatsappLink = 'https://we.me/+237670019205?text=CarsForAll';
+        window.location.href = whatsappLink;
+    };
+
     return(
         <div className="hero_section">
             <div className='lauerl_div'>
@@ -18,7 +23,7 @@ export const Hero = ()=>{
             </div>
 
             <div className='hero_btns'>
-                <button className='contact_hero_btn herobtn'>Contact Us</button>
+                <button className='contact_hero_btn herobtn' onClick={()=>handleclick()}>Contact Us</button>
                 <button className='store_btn herobtn' onClick={()=>nav('/home')}>View Shop</button>
             </div>
         </div>
